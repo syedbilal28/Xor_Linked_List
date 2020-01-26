@@ -6,21 +6,21 @@ Note: as pointers can't be accessed directly in python so the assumption here is
 The XOR.py file holds the source code to the implemetation. 
 The following Functions are defined against their respective behavior.
 
-InsertAtFirst(self,value):
+InsertAtFirst(value):
         """Inserts Data at the beginning of the list and makes it head"""
-InsertAtLast(self,value):
+InsertAtLast(value):
         """Inserts data at the end of the list and makes it tail"""
-Print(self):
+Print():
         """Prints the entire data in the list"""
-Get(self,index):
+Get(index):
         """Return the value against the index asked"""
-DeleteAtEnd(self):
+DeleteAtEnd():
         """Deletes the item at the end of the list and reduces tail"""
-DeleteAtFirst(self):
+DeleteAtFirst():
         """Deletes the item at the start of the list and increases head"""
-Length(self):
+Length():
         """returns length of list"""
-InsertAfter(self,value,item):
+InsertAfter(value,item):
         """Inserts an item after a value given by the user"""
-DeleteByValue(self,value):
+DeleteByValue(value):
         """Deletes Node by the value given"""
